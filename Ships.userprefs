@@ -4,14 +4,14 @@
     <Files>
       <File FileName="Ships\app.cfg" Line="1" Column="1" />
       <File FileName="Ships\AppMain.cs" Line="29" Column="1" />
-      <File FileName="Ships\Game.cs" Line="89" Column="7" />
+      <File FileName="Ships\Game.cs" Line="78" Column="59" />
       <File FileName="..\..\..\..\Public\Documents\PSM\sample\GameEngine2D\PuzzleGameDemo\AppMain.cs" Line="1" Column="1" />
       <File FileName="..\..\..\..\Public\Documents\PSM\sample\GameEngine2D\PuzzleGameDemo\Board.cs" Line="60" Column="84" />
       <File FileName="Ships\GameObject.cs" Line="17" Column="25" />
       <File FileName="..\..\..\..\Public\Documents\PSM\sample\GameEngine2D\ActionGameDemo\Game.cs" Line="1" Column="1" />
       <File FileName="Ships\Support.cs" Line="22" Column="81" />
       <File FileName="..\..\..\..\Public\Documents\PSM\sample\GameEngine2D\ActionGameDemo\Support.cs" Line="82" Column="9" />
-      <File FileName="Ships\Ship.cs" Line="75" Column="28" />
+      <File FileName="Ships\Ship.cs" Line="56" Column="122" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -53,12 +53,9 @@ namespace Ships
 		}
 		
 		public override void Translate(Vector2 translateFactor) {
-			//position = new Vector2(position.X+translateFactor.X*this.Rotation.X, position.Y+translateFactor.Y*this.Rotation.Y);	
-			//position = new Vector2(position.X+translateFactor.X, position.Y+translateFactor.Y);	
-			this.Position=new Vector2(Position.X+translateFactor.X*this.Rotation.X, Position.Y+translateFactor.Y*this.Rotation.Y);	//position;
+			this.Position=new Vector2(Position.X+translateFactor.X*this.Rotation.X, Position.Y+translateFactor.Y*this.Rotation.Y);
 		}
 		public void Translate(Vector2 translateFactor, Vector2 angle) {
-			//position = new Vector2(position.X+translateFactor.X*angle.X, position.Y+translateFactor.Y*angle.Y);	
 			this.Position=new Vector2(Position.X+translateFactor.X*angle.X, Position.Y+translateFactor.Y*angle.Y);
 		}
 		public void Move(Vector2 moveFactor) {
@@ -77,7 +74,6 @@ namespace Ships
 			}
 			rotateFactor/=20.0f;
 			System.Console.WriteLine("rotateFactor = "+(rotateFactor*20.0f*FMath.RadToDeg)+", angle = "+(angle*FMath.RadToDeg)+", this.Angle = "+(this.Angle*FMath.RadToDeg));
-			//System.Console.WriteLine("angle = "+(angle*FMath.RadToDeg)+", current rotation = "+(this.Angle*FMath.RadToDeg));
 			Rotate(rotateFactor);
 			
 			
