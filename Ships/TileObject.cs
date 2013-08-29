@@ -54,6 +54,14 @@ namespace Ships
 				}
 			}
 		}
+		public void Rotate(float angle) {
+			for(int i = 0; i < tile_x; i++) {
+				for(int r = 0; r < tile_y; r++) {
+					tiles[i,r].Rotate(angle);
+					
+				}
+			}
+		}
 	}
 }
 

@@ -24,31 +24,31 @@ namespace Ships
 			guns[0].Translate(new Vector2(-0.3f, 0f));
 			guns[0].minAngle=0;
 			guns[0].maxAngle=180;
-			gameObjectList.Add(guns[0]);
-			AddChild(guns[0]);
+			//gameObjectList.Add(guns[0]);
+			//AddChild(guns[0]);
 			guns[1] = new Gun("/Application/assets/art/gun.png");
 			guns[1].ScaleUV(new Vector2(0.006f, 0.010f));
 			guns[1].Translate(new Vector2(-0.415f, -1.0f));
 			guns[1].Rotate(180*FMath.DegToRad);
 			guns[1].minAngle=0;
 			guns[1].maxAngle=180;
-			gameObjectList.Add(guns[1]);
-			AddChild(guns[1]);
+			//gameObjectList.Add(guns[1]);
+			//AddChild(guns[1]);
 			guns[2] = new Gun("/Application/assets/art/gun.png");
 			guns[2].ScaleUV(new Vector2(0.006f, 0.010f));
 			guns[2].Translate(new Vector2(-0.6f, 0f));
 			guns[2].minAngle=0;
 			guns[2].maxAngle=180;
-			gameObjectList.Add(guns[2]);
-			AddChild(guns[2]);
+			//gameObjectList.Add(guns[2]);
+			//AddChild(guns[2]);
 			guns[3] = new Gun("/Application/assets/art/gun.png");
 			guns[3].ScaleUV(new Vector2(0.006f, 0.010f));
 			guns[3].Translate(new Vector2(-0.715f, -1.0f));
 			guns[3].Rotate(180*FMath.DegToRad);
 			guns[3].minAngle=0;
 			guns[3].maxAngle=180;
-			gameObjectList.Add(guns[3]);
-			AddChild(guns[3]);
+			//gameObjectList.Add(guns[3]);
+			//AddChild(guns[3]);
 			
 		}
 		
@@ -73,7 +73,7 @@ namespace Ships
 				rotateFactor+=2*FMath.PI;
 			}
 			rotateFactor/=20.0f;
-			System.Console.WriteLine("rotateFactor = "+(rotateFactor*20.0f*FMath.RadToDeg)+", angle = "+(angle*FMath.RadToDeg)+", this.Angle = "+(this.Angle*FMath.RadToDeg));
+			//System.Console.WriteLine("rotateFactor = "+(rotateFactor*20.0f*FMath.RadToDeg)+", angle = "+(angle*FMath.RadToDeg)+", this.Angle = "+(this.Angle*FMath.RadToDeg));
 			Rotate(rotateFactor);
 			
 			

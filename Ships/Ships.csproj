@@ -63,5 +63,7 @@
     <Content Include="assets\art\ship.png" />
     <Content Include="assets\art\background_back.png" />
     <Content Include="assets\art\gun.png" />
+    <Content Include="assets\art\boat.png" />
+    <Content Include="assets\art\water_1.png" />
   </ItemGroup>
 </Project>

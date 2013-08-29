@@ -41,7 +41,7 @@ namespace Ships
 			scene.AddChild(foreground);
 			
 			TileObject backgroundImage = new TileObject(
-				"/Application/assets/art/background_back.png", 8,4);
+				"/Application/assets/art/water_1.png", 8,4);
 			backgroundImage.SetParent(background);
 			backgroundImage.SetScale(new Vector2(0.5f,0.5f));
 			
@@ -51,8 +51,8 @@ namespace Ships
 			TitleCameraCenter = camera.Center;
 			CameraTarget = TitleCameraCenter;
 			
-			ship = new Ship("/Application/assets/art/ship.png");
-			ship.ScaleUV(new Vector2(1.5f, 1.5f));
+			ship = new Ship("/Application/assets/art/boat.png");
+			ship.ScaleUV(new Vector2(0.5f, 0.5f));
 			ship.Rotate(FMath.DegToRad*90);
 			ship.Pivot = new Vector2(-0.30f, 0.0f);
 			foreground.AddChild(ship);
